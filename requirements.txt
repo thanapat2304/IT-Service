@@ -12,3 +12,4 @@ idna==3.6
 urllib3==2.2.1
 pytz==2024.1 
 gunicorn==23.0.0
+mysql-connector-python==9.3.0
