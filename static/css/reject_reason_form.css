@@ -1,0 +1,115 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    min-height: 100vh;
+    background: rgb(235, 234, 234);
+}
+
+.font {
+    font-family: 'Kanit', sans-serif;
+}
+
+#form-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 5px 0;
+}
+
+form label {
+    display: block;
+    margin: 5px 0 5px;
+}
+
+form {
+    padding-right: 20px;
+}
+
+form input {
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 35px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+}
+
+form select {
+    font-size: 13px;
+    font-family: 'Kanit', sans-serif;
+    padding: 8px 10px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 35px;
+    width: 100%
+}
+
+form textarea {
+    font-size: 13px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    color: rgb(187, 185, 185);
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+}
+
+.back {
+    background-color: #f44336;
+    border: none;
+    padding: 7px 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back:hover {
+    background-color: rgb(158, 49, 49);
+    opacity: 0.8;
+}
+
+.save {
+    font-family: 'Kanit', sans-serif;
+    background-color: #28a745;
+    border: none;
+    padding: 7px 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.save:hover {
+    background-color: #218838;
+    opacity: 0.8;
+}
